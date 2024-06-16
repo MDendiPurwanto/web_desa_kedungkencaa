@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Desa Kedungkencana</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loader">
+        <img src="src/logo.png" alt="Logo Desa" class="loader-logo">
+    </div>
+    <header>
+        <a href="/"> <img src="/src/logo.png" alt="Logo Desa" id="logo"></a> 
+        <h1 id="judul">Desa Kedungkencana</h1>
+        <button id="hamburger-menu"><i class="fas fa-bars"></i></button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="/">Beranda</a></li>
+                <li><a href="#berita">Berita</a></li>
+                <li><a href="#potensi-desa">Potensi Desa</a></li>
+                <li>
+                    <button id="kontakButton">Kontak</button>
+                    <div id="kontakPopup" class="popup">
+                        <h2>Kontak Kami</h2>
+                        <p>Alamat: Desa Kedungkencana, Kecamatan Ligung, Kabupaten Majalengka, Jawa Barat</p>
+                        <p>Telepon: 0813243088xx</p>
+                        <p>Email: mdendipurwanto0112@gmail.com</p>
+                        <button id="closePopup">Tutup</button>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div id="weather-widget">
+            <span id="temperature"></span>
+            <span id="description"> | <i class="fas fa-sun"></i> Cerah,</span>
+             <span id="location"></span>
+        </div>
+    </header>
+
+    <main>
+        
+        <div id="content">
+            <article  class="card">
+                <img src="src/desa.jpg" alt="Gambar Artikel 2"  id="berita" class="artikel-gambar">
+                <h2>Tradisi Unik Seren Taun di Desa Kedungkencana</h2>
+                <p class="article-meta">
+                    Diunggah oleh <span id="author-name">Admin Desa</span> pada <span id="upload-date">14 Juni 2024</span>
+                </p>
+                <p>
+                    Desa Kedungkencana memiliki sebuah tradisi unik yang disebut Seren Taun. Tradisi ini merupakan ungkapan rasa syukur masyarakat kepada Tuhan Yang Maha Esa atas hasil panen yang melimpah. Seren Taun biasanya diadakan setiap tahun pada bulan [bulan pelaksanaan] dan menjadi momen yang dinantikan oleh seluruh warga desa.
+                    Acara Seren Taun dimeriahkan dengan berbagai kegiatan menarik, seperti arak-arakan hasil bumi, pertunjukan kesenian tradisional, dan upacara adat yang sakral. Puncak acara adalah prosesi penyerahan hasil panen kepada sesepuh desa sebagai bentuk penghormatan dan terima kasih.
+                </p>
+            </article>    
+        </div>
+        <aside>
+            <img src="src/profile.png" alt="profile" id="profile">
+            <h3>Muhamad Dendi Purwanto</h3>
+            <p>Web Developer Desa Kedungkencana</p>
+            <p>S1 Informatika, Universitas Majalengka</p>
+           
+        </aside>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Kontak Kami</h3>
+                <p id="p_footer">Alamat: Desa Kedungkencana, Kecamatan Ligung, Kabupaten Majalengka, Jawa Barat</p>
+                <p id="p_footer">Telepon: 0813243088xx</p>
+                <p id="p_footer">Email: mdendipurwanto0112@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Media Sosial</h3>
+                <ul class="social-media">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Tentang Kami</h3>
+                <p style="text-align: justify;" id="p_footer">Desa Kedungkencana adalah sebuah desa yang terletak di Kecamatan Ligung, Kabupaten Majalengka, Jawa Barat. Desa ini dikenal dengan keindahan alamnya yang masih asri, dengan hamparan sawah hijau dan udara yang segar. Masyarakat Kedungkencana hidup rukun dalam suasana gotong royong, menjaga tradisi dan budaya lokal yang kaya. Desa ini juga memiliki potensi di bidang pertanian, peternakan, dan kerajinan tangan yang menjadi sumber mata pencaharian utama penduduknya. Kedungkencana terus berupaya mengembangkan diri menjadi desa yang maju, mandiri, dan sejahtera.
+                </p>
+            </div>
+        </div>
+        <h1 class="copyright" style="text-align: center;" >&copy; 2024 Website Desa Kedungkencana</h1>
+    </footer>
+
+    <script>
+        const hamburgerMenu = document.getElementById('hamburger-menu');
+        const navMenu = document.getElementById('nav-menu');
+    
+        hamburgerMenu.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        
+    </script>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+        e.preventDefault(); // Mencegah perilaku default tautan
+
+        const targetId = this.getAttribute('href'); // Dapatkan ID target
+        const targetElement = document.querySelector(targetId); // Temukan elemen target
+
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+});
+    </script>
+    <script>
+    const kontakButton = document.getElementById('kontakButton');
+    const kontakPopup = document.getElementById('kontakPopup');
+    const closePopup = document.getElementById('closePopup');
+
+    kontakButton.addEventListener('click', () => {
+        kontakPopup.style.display = 'block'; // Tampilkan popup
+    });
+
+    closePopup.addEventListener('click', () => {
+        kontakPopup.style.display = 'none'; // Sembunyikan popup
+    });
+
+    </script>
+    <script>
+        // JavaScript untuk mengisi tanggal dan penulis artikel (headline dan artikel biasa)
+        const authorNameElements = document.querySelectorAll('.author-name');
+        const uploadDateElements = document.querySelectorAll('.upload-date');
+
+        authorNameElements.forEach(element => {
+            element.textContent = 'Admin Desa'; // Ganti dengan nama penulis yang sesuai
+        });
+
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const currentDate = new Date().toLocaleDateString('id-ID', options);
+
+        uploadDateElements.forEach(element => {
+            element.textContent = currentDate;
+        });
+    </script>
+
+    <script>
+            window.addEventListener('load', () => {
+            const loader = document.getElementById('loader');
+
+            // Timeout 10 detik untuk menyembunyikan loader
+            setTimeout(() => {
+                loader.style.display = 'none';
+            }, 2000); // 10000 milidetik = 10 detik
+        });
+    </script>
+    
+<script>
+    // JavaScript untuk informasi cuaca
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=Ligung&appid=7c8bca1f18687c98a10074744d3f0bcc&units=metric')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('temperature').textContent = data.main.temp + '°C';
+           
+            document.getElementById('location').textContent = data.name;
+        });
+
+    // JavaScript untuk jam dan hari
+    function updateTime() {
+        const now = new Date();
+        const time = now.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' });
+        const day = now.toLocaleDateString('id-ID', { weekday: 'long' });
+        document.getElementById('time').textContent = time;
+        document.getElementById('day').textContent = day;
+    }
+    setInterval(updateTime, 1000); // Perbarui setiap detik
+    updateTime(); // Panggil sekali saat halaman dimuat
+
+    // JavaScript untuk loader (sama seperti sebelumnya)
+    window.addEventListener('load', () => {
+        const loader = document.getElementById('loader');
+        setTimeout(() => {
+            loader.style.display = 'none';
+        }, 2000);
+    });
+</script>
+</body>
+</html>

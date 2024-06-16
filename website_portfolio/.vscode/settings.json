@@ -1,0 +1,8 @@
+{ 
+    "windows.zoomLevel":1,
+    "editor.fontSize": 15,
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.port": 5501,
+    "terminal.integrated.fontSize": 15,
+    "editor.tabSize": 2
+}
