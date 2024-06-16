@@ -18,12 +18,10 @@
 ## 🛠️ Instalasi
 
 1. **Clone repository ini:** `git clone https://github.com/MDendiPurwanto/web_desa_kedungkencaa.git`
-2. **Install dependencies:** `npm install` atau `pip install -r requirements.txt` (sesuaikan dengan bahasa pemrograman Anda)
-3. **Jalankan proyek:** `npm start` atau `python main.py` (sesuaikan dengan bahasa pemrograman Anda)
+
 
 ## 💻 Penggunaan
 
-Berikan instruksi singkat tentang cara menggunakan proyek Anda.
 
 ## 🤝 Kontribusi
 
@@ -33,9 +31,6 @@ Kontribusi sangat dihargai! Silakan buka issue atau pull request.
 
 Proyek ini dilisensikan di bawah [MIT License](https://opensource.org/licenses/MIT) - lihat file `LICENSE` untuk detailnya.
 
-## 📞 Kontak
-
-Nama Anda - [@username-twitter-anda](https://twitter.com/username-twitter-anda) - email@anda.com
 
 ## 🙏 Ucapan Terima Kasih
 
