@@ -6,7 +6,8 @@
 
 ## 📸 Demo / Screenshot
 
-![Screenshot dari proyek Anda](https://github.com/MDendiPurwanto/web_desa_kedungkencana/blob/main/Macbook-Air-127.0.0.1.png)
+![Screenshot dari proyek Anda](https://github.com/MDendiPurwanto/web_desa_kedungkencana/blob/main/Macbook-Air-127.0.0.1.png)]
+
 *Tambahkan deskripsi singkat tentang screenshot*
 
 ## 🚀 Fitur Utama
